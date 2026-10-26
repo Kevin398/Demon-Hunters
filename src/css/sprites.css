@@ -1,0 +1,33 @@
+.sprite {
+  position: relative;
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+.sprite-hitbox {
+  position: absolute;
+  pointer-events: auto;
+}
+
+.party-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.party-member__attack {
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.party-member__attack:disabled {
+  cursor: default;
+}
+
+.party-member.has-acted .sprite,
+.party-member.is-dead .sprite {
+  opacity: 0.5;
+}
