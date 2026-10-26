@@ -4,8 +4,11 @@
 
 **Play it here:** https://kevin398.github.io/Demon-Hunters/
 
+**Group design write-up (PDF):** [Project 1 Group 4 Write-up](docs/Project-1-Group-4-Write-up.pdf)
+
 ## Table of Contents
 
+- [Group Design Write-up](#group-design-write-up)
 - [How to Play](#how-to-play)
 - [Built With](#built-with)
 - [Getting Started](#getting-started)
@@ -13,6 +16,12 @@
 - [Project Structure](#project-structure)
 - [Contributors](#contributors)
 - [References](#references)
+
+## Group Design Write-up
+
+The [full 10-page team write-up](docs/Project-1-Group-4-Write-up.pdf) covers our brainstorming, battle sketches, character design, the three special buttons, functionality, and project-specific AI use. Our roles were designed to support each other: Fion increases the team's attack, Wish heals the group, and my rogue boosts defense.
+
+The write-up also documents that Claude Opus 5.5 was used to generate custom character art and animation spritesheets. ChatGPT assisted with a draft of the demonstration-video narration, which our group revised.
 
 ## How to Play
 
@@ -55,8 +64,8 @@ There is no build step or install. `index.html` loads all the game files directl
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/fion-lei/CPSC581-Project1.git
-    cd CPSC581-Project1
+    git clone https://github.com/Kevin398/Demon-Hunters.git
+    cd Demon-Hunters
     ```
 2. Open `index.html` in a browser, or serve the folder locally, for example:
     ```bash
@@ -71,11 +80,12 @@ The site is hosted on GitHub Pages. Any change merged into `main` goes live auto
 ## Project Structure
 
 ```
-CPSC581-Project1/
+Demon-Hunters/
+├── docs/             # Full team design write-up (PDF)
 ├── index.html        # Page entry point: layout containers and <script> tags (load order matters)
 ├── fonts/            # Monogram pixel font used for all in-game text
 ├── sounds/           # Sound effects (attacks, heal, buff, select, death, refresh, win, defeat)
-├── sprites/          # Third-party pixel art (see References). Don't edit these files
+├── sprites/          # Pixel-art sprites, including AI-generated team characters (see write-up and References)
 │   ├── characters/   # Party sprite sheets and profile portraits (fion, wish, kevin)
 │   ├── icons/        # Item, ability and UI icons (e.g. settings gear, help)
 │   ├── monsters/     # Demon sprite sheets (idle, attack, hurt, death)
