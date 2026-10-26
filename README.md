@@ -2,7 +2,7 @@
 
 **581 Demon Hunters** is a turn-based pixel-art RPG battle. Our three-person party, Fion, Wish, and Kevin, team up to defeat a demon.
 
-**Play it here:** https://fion-lei.github.io/CPSC581-Project1/
+**Play it here:** https://kevin398.github.io/Demon-Hunters/
 
 ## Table of Contents
 
@@ -88,6 +88,8 @@ CPSC581-Project1/
         └── engine/   # Game logic and UI components: state and turns, combat, rendering, sprites,
                       # sounds, action bar, stat card, turn banner, settings menu, debug controls
 ```
+
+This is Kevin Wilson's hosted copy of a collaborative project. Original team source: https://github.com/fion-lei/CPSC581-Project1
 
 ## Contributors
 
